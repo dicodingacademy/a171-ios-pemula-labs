@@ -19,13 +19,13 @@
                                 <rect key="frame" x="20" y="171" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="els-N0-hEY">
                                 <rect key="frame" x="20" y="244" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Panjang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ix-iS-np5">
                                 <rect key="frame" x="20" y="142" width="61" height="21"/>
@@ -53,7 +53,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Hitung"/>
                                 <connections>
-                                    <action selector="hitung:" destination="BYZ-38-t0r" eventType="touchDown" id="2sl-X7-YjP"/>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchDown" id="z9q-bE-Sbo"/>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="touchDownRepeat" id="AfP-Go-T2R"/>
                                 </connections>
                             </button>
@@ -69,9 +69,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="hasil" destination="w9p-OK-h0Q" id="Xs7-2f-rEj"/>
+                        <outlet property="hight" destination="pGo-6X-Ehx" id="WkK-Bd-EJl"/>
                         <outlet property="lebar" destination="els-N0-hEY" id="vbf-Il-WIc"/>
-                        <outlet property="panjang" destination="pGo-6X-Ehx" id="99G-Xf-aLZ"/>
+                        <outlet property="result" destination="w9p-OK-h0Q" id="pEZ-fQ-HIZ"/>
+                        <outlet property="width" destination="els-N0-hEY" id="EY8-qx-bFU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -10,25 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var panjang: UITextField!
-    @IBOutlet weak var lebar: UITextField!
-    @IBOutlet weak var hasil: UILabel!
+    @IBOutlet weak var hight: UITextField!
+    @IBOutlet weak var width: UITextField!
+    @IBOutlet weak var result: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func hitung(_ sender: Any) {
-        if let p = Double(panjang.text ?? "0"), let l = Double(lebar.text ?? "0"){
-            hasil.text = String(p * l)
+    @IBAction func calculate(_ sender: Any) {
+        if let h = Double(hight.text ?? "0"), let w = Double(width.text ?? "0"){
+            result.text = String(h * w)
         }else{
-            hasil.text = "Hasil Tidak Valid"
+            result.text = "Hasil Tidak Valid"
         }
     }
     
     @IBAction func reset(_ sender: Any) {
-        hasil.text = ""
-        lebar.text = ""
-        panjang.text = ""
+        result.text = ""
+        hight.text = ""
+        width.text = ""
     }
 }
