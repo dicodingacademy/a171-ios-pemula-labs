@@ -69,8 +69,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="hight" destination="pGo-6X-Ehx" id="WkK-Bd-EJl"/>
-                        <outlet property="lebar" destination="els-N0-hEY" id="vbf-Il-WIc"/>
+                        <outlet property="height" destination="pGo-6X-Ehx" id="MNk-CF-VbL"/>
                         <outlet property="result" destination="w9p-OK-h0Q" id="pEZ-fQ-HIZ"/>
                         <outlet property="width" destination="els-N0-hEY" id="EY8-qx-bFU"/>
                     </connections>

@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var hight: UITextField!
+    @IBOutlet weak var height: UITextField!
     @IBOutlet weak var width: UITextField!
     @IBOutlet weak var result: UILabel!
     override func viewDidLoad() {
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculate(_ sender: Any) {
-        if let h = Double(hight.text ?? "0"), let w = Double(width.text ?? "0"){
+        if let h = Double(height.text ?? "0"), let w = Double(width.text ?? "0"){
             result.text = String(h * w)
         }else{
             result.text = "Hasil Tidak Valid"
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     @IBAction func reset(_ sender: Any) {
         result.text = ""
-        hight.text = ""
+        height.text = ""
         width.text = ""
     }
 }
