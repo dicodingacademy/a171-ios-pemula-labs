@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  SimpleCalculator
 //
-//  Created by Gilang Ramadhan on 27/01/20.
+//  Created by Gilang Ramadhan on 23/02/20.
 //  Copyright © 2020 Dicoding Indonesia. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var height: UITextField!
     @IBOutlet weak var width: UITextField!
     @IBOutlet weak var result: UILabel!
@@ -17,18 +17,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func calculate(_ sender: Any) {
+    
+    @IBAction func calculateArea(_ sender: UIButton) {
         if let h = Double(height.text ?? "0"), let w = Double(width.text ?? "0"){
             result.text = String(h * w)
         }else{
             result.text = "Hasil Tidak Valid"
         }
     }
-    
-    @IBAction func reset(_ sender: Any) {
+
+    @IBAction func resetView(_ sender: UIButton) {
         result.text = ""
         height.text = ""
         width.text = ""
     }
 }
+

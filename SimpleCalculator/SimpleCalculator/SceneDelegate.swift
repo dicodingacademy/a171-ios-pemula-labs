@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SimpleCalculator
 //
-//  Created by Gilang Ramadhan on 27/01/20.
+//  Created by Gilang Ramadhan on 23/02/20.
 //  Copyright © 2020 Dicoding Indonesia. All rights reserved.
 //
 
