@@ -1,4 +1,4 @@
-# [Memulai Pemrograman Dengan Swift](https://www.dicoding.com/academies/171)
+# [Belajar Membuat Aplikasi iOS untuk Pemula](https://www.dicoding.com/academies/171)
 ## Mulailah perjalanan karirmu sebagai seorang iOS developer dari sini. Materi disusun oleh tim expert Dicoding bersama praktisi industri.
 ![MPDS](https://dicodingacademy.blob.core.windows.net/academies/2020032412082564a8111ba93ff5df6b7d60c2af357bc3.png)
 Menjadi iOS developer merupakan pekerjaan yang diimpikan bagi banyak orang. Menurut data dari Indeed, salah satu platform pencari pekerjaan terbesar di dunia, tingkat kepuasan menjadi iOS developer itu 13% lebih tinggi dibandingkan dengan profesi Android Developer. The iOS Developer Community Survey menemukan bahwa di tahun 2020, 75.5% dari developer masih menggunakan codebase terpisah ketika aplikasinya perlu dapat dijalankan di berbagai platform yang berbeda (seperti OS Android dan iOS). Artinya banyak tempat kerja yang masih menginginkan codebase yang terpisah dan benar-benar dibangun dari Xcode. Oleh karena ini, permintaan industri untuk seorang iOS Developer masih sangat tinggi walaupun market share pengguna mobile platform iOS hanya sebesar 26% (data Statcounter, Februari 2020).
@@ -39,4 +39,4 @@ Kelas ini membahas komponen-komponen dasar yang dibutuhkan untuk membuat aplikas
 ## Tools yang digunakan:
 - Untuk MacOS gunakan Xcode 11.3 atau yang lebih baru. Cara instalasi Xcode akan diajarkan pada kelas ini.
 
-Ikuti kelas [Memulai Pemrograman Dengan Swift](https://www.dicoding.com/academies/171) di Dicoding Indonesia
+Ikuti kelas [Belajar Membuat Aplikasi iOS untuk Pemula](https://www.dicoding.com/academies/171) di Dicoding Indonesia
