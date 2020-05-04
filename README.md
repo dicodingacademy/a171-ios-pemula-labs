@@ -38,4 +38,4 @@ Kelas ini membahas komponen-komponen dasar yang dibutuhkan untuk membuat aplikas
 ## Tools yang digunakan:
 - Untuk macOS gunakan Xcode 11.3 atau yang lebih baru. Cara instalasi Xcode akan diajarkan pada kelas ini.
 
-Ikuti kelas [Belajar Membuat Aplikasi iOS untuk Pemula](https://www.dicoding.com/academies/171) di Dicoding Indonesia di Dicoding Indonesia
+Ikuti kelas [Belajar Membuat Aplikasi iOS untuk Pemula](https://www.dicoding.com/academies/171) di Dicoding Indonesia
