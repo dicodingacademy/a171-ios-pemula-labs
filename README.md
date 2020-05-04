@@ -1,6 +1,6 @@
 # [Belajar Membuat Aplikasi iOS untuk Pemula][1]
 ## Mulailah perjalanan karirmu sebagai seorang iOS developer dari sini. Materi disusun oleh tim expert Dicoding bersama praktisi industri.
-![MPDS][image-1]
+![MPDS](https://dicodingacademy.blob.core.windows.net/academies/2020032412082564a8111ba93ff5df6b7d60c2af357bc3.png)
 Menjadi iOS developer merupakan pekerjaan yang diimpikan bagi banyak orang. Menurut data dari Indeed, salah satu platform pencari pekerjaan terbesar di dunia, tingkat kepuasan menjadi iOS developer itu 13% lebih tinggi dibandingkan dengan profesi Android Developer. The iOS Developer Community Survey menemukan bahwa di tahun 2020, 75.5% dari developer masih menggunakan codebase terpisah ketika aplikasinya perlu dapat dijalankan di berbagai platform yang berbeda (seperti OS Android dan iOS). Artinya banyak tempat kerja yang masih menginginkan codebase yang terpisah dan benar-benar dibangun dari Xcode. Oleh karena ini, permintaan industri untuk seorang iOS Developer masih sangat tinggi walaupun market share pengguna mobile platform iOS hanya sebesar 26% (data Statcounter, Februari 2020).
 
 Kelas ini membahas komponen-komponen dasar yang dibutuhkan untuk membuat aplikasi iOS seperti Xcode, Applications Pattern dan Architecture, Views and Windows, Storyboards, Navigation Based Applications, dan Table Views. Kurikulum telah disusun oleh tim expert Dicoding bersama praktisi industri agar materi yang disajikan terstruktur dan komprehensif.
@@ -24,7 +24,7 @@ Kelas ini membahas komponen-komponen dasar yang dibutuhkan untuk membuat aplikas
 #### Anda tentukan sendiri berapa lama waktu belajar materi kelas ini. Materi kelas didesain untuk diselesaikan dalam waktu 40 jam. Jika Anda meluangkan waktu sedikitnya 10 jam saja dalam seminggu, maka sangat dimungkinkan Anda bisa menuntaskan kelas ini dalam waktu 30 hari. Namun tidak menutup kemungkinan Anda menyelesaikan dalam waktu yang jauh lebih cepat.
 
 ## Prasyarat mengikuti kelas ini adalah:
-- Anda diharapkan memiliki latar belakang dan pemahaman mengenai pemrograman menggunakan Swift. Jika belum, Anda bisa mempelajari kelas [Memulai Pemrograman Dengan Swift][2].
+- Anda diharapkan memiliki latar belakang dan pemahaman mengenai pemrograman menggunakan Swift. Jika belum, Anda bisa mempelajari kelas [Memulai Pemrograman Dengan Swift(https://www.dicoding.com/academies/145/).
 - Anda harus mandiri, berkomitmen, benar-benar punya rasa ingin tahu dan tertarik pada subjek.
 - Anda harus gigih, temukan topik yang menarik, bermain-main dan mengotak-atik kode Anda.
 - Sebaik apa pun materi struktur kelas ini, tak akan berguna tanpa keseriusan Anda untuk belajar, berlatih, dan mencoba.
@@ -38,10 +38,4 @@ Kelas ini membahas komponen-komponen dasar yang dibutuhkan untuk membuat aplikas
 ## Tools yang digunakan:
 - Untuk macOS gunakan Xcode 11.3 atau yang lebih baru. Cara instalasi Xcode akan diajarkan pada kelas ini.
 
-Ikuti kelas [Belajar Membuat Aplikasi iOS untuk Pemula][3] di Dicoding Indonesia
-
-[1]:	https://www.dicoding.com/academies/171
-[2]:	https://www.dicoding.com/academies/145/
-[3]:	https://www.dicoding.com/academies/171
-
-[image-1]:	https://dicodingacademy.blob.core.windows.net/academies/2020032412082564a8111ba93ff5df6b7d60c2af357bc3.png
+Ikuti kelas [Belajar Membuat Aplikasi iOS untuk Pemula](https://www.dicoding.com/academies/171) di Dicoding Indonesia di Dicoding Indonesia
