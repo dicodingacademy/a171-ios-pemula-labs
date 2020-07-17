@@ -16,7 +16,7 @@ class MyTabBarController: UITabBarController {
         // konstruktor untuk kelas view controller
         let firstViewController = ViewController()
         let secondViewController = AnotherViewController()
-        
+
         // menambahkan tabBarItem ke dalam
         firstViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         // menambahkan tabBarItem dengan gambar lain

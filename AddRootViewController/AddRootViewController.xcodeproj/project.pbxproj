@@ -83,6 +83,7 @@
 				2A78B45D2424FBF700C70514 /* Sources */,
 				2A78B45E2424FBF700C70514 /* Frameworks */,
 				2A78B45F2424FBF700C70514 /* Resources */,
+				2AF7C75624C04A3000818C5F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -137,6 +138,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AF7C75624C04A3000818C5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif hash tailor 2>/dev/null; then\n    tailor\nelse\n    echo \"warning: Please install Tailor from https://tailor.sh\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A78B45D2424FBF700C70514 /* Sources */ = {

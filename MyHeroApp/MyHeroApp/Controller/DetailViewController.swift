@@ -12,13 +12,11 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var nameHero: UILabel!
     @IBOutlet weak var photoHero: UIImageView!
     @IBOutlet weak var descHero: UILabel!
-    
     // Digunakan untuk menampung data Hero
     var hero: Hero?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Digunakan untuk menetapkan nilai hero ke beberapa view yang ada
         if let result = hero {
             photoHero.image = result.photo
@@ -26,4 +24,5 @@ class DetailViewController: UIViewController {
             descHero.text = result.description
         }
     }
+
 }

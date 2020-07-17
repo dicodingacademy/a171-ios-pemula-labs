@@ -9,11 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemPink
-        
+
         let button = UIButton(frame: CGRect(x: 184, y: 433, width: 70, height: 30))
         button.setTitleColor(.white, for: .normal)
         button.setTitle("Button", for: .normal)
@@ -21,11 +21,11 @@ class ViewController: UIViewController {
 
         self.view.addSubview(button)
     }
-    
+
     @objc func buttonAction(sender: UIButton!) {
         let vc = UINavigationController(rootViewController: DetailViewController())
         vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true, completion: nil)
     }
-}
 
+}
