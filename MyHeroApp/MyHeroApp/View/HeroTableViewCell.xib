@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,12 +16,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsA-ga-6nq">
-                        <rect key="frame" x="104" y="16" width="294" height="24"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dPy-6R-Fed">
                         <rect key="frame" x="16" y="16" width="80" height="80"/>
                         <constraints>
@@ -30,22 +24,25 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTy-H3-jH0">
-                        <rect key="frame" x="104" y="48" width="294" height="17"/>
+                        <rect key="frame" x="104" y="47.5" width="35.5" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsA-ga-6nq">
+                        <rect key="frame" x="104" y="16" width="48" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="YsA-ga-6nq" secondAttribute="trailing" constant="16" id="22n-qz-idz"/>
-                    <constraint firstAttribute="trailing" secondItem="MTy-H3-jH0" secondAttribute="trailing" constant="16" id="89D-PW-mSc"/>
-                    <constraint firstItem="YsA-ga-6nq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="GtV-LF-O0r"/>
-                    <constraint firstAttribute="bottom" secondItem="dPy-6R-Fed" secondAttribute="bottom" constant="16" id="VaB-1J-MrN"/>
-                    <constraint firstItem="MTy-H3-jH0" firstAttribute="leading" secondItem="dPy-6R-Fed" secondAttribute="trailing" constant="8" id="aai-na-xIP"/>
-                    <constraint firstItem="dPy-6R-Fed" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="c7Y-G5-OqJ"/>
-                    <constraint firstItem="dPy-6R-Fed" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="eXT-W4-mdt"/>
-                    <constraint firstItem="YsA-ga-6nq" firstAttribute="leading" secondItem="dPy-6R-Fed" secondAttribute="trailing" constant="8" id="jeE-2q-PTv"/>
-                    <constraint firstItem="MTy-H3-jH0" firstAttribute="top" secondItem="YsA-ga-6nq" secondAttribute="bottom" constant="8" symbolic="YES" id="zUd-BB-Nsp"/>
+                    <constraint firstItem="MTy-H3-jH0" firstAttribute="leading" secondItem="dPy-6R-Fed" secondAttribute="trailing" constant="8" symbolic="YES" id="6Cp-g9-WLs"/>
+                    <constraint firstItem="YsA-ga-6nq" firstAttribute="leading" secondItem="dPy-6R-Fed" secondAttribute="trailing" constant="8" symbolic="YES" id="6YP-Pr-oPe"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="centerY" secondItem="MTy-H3-jH0" secondAttribute="centerY" id="S1X-wR-Xmq"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-4" id="dDS-Tu-nqy"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qzB-i6-chx"/>
+                    <constraint firstItem="dPy-6R-Fed" firstAttribute="top" secondItem="YsA-ga-6nq" secondAttribute="top" id="rOU-XW-bhU"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -54,7 +51,7 @@
                 <outlet property="nameHero" destination="YsA-ga-6nq" id="mt2-hY-81r"/>
                 <outlet property="photoHero" destination="dPy-6R-Fed" id="Ftj-bb-Acu"/>
             </connections>
-            <point key="canvasLocation" x="-283" y="131"/>
+            <point key="canvasLocation" x="-284.05797101449275" y="130.58035714285714"/>
         </tableViewCell>
     </objects>
 </document>

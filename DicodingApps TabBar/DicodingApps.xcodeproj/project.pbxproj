@@ -17,6 +17,7 @@
 		2A78B4102423574000C70514 /* AcademiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78B40F2423574000C70514 /* AcademiesViewController.swift */; };
 		2A78B4122423576E00C70514 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78B4112423576E00C70514 /* ChallengesViewController.swift */; };
 		2A78B4142423577F00C70514 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78B4132423577F00C70514 /* ProfileViewController.swift */; };
+		2ACD118A260AFEDB0098E33E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2ACD1189260AFEDB0098E33E /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2A78B40F2423574000C70514 /* AcademiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiesViewController.swift; sourceTree = "<group>"; };
 		2A78B4112423576E00C70514 /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
 		2A78B4132423577F00C70514 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2ACD1189260AFEDB0098E33E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		2A5EC4B8241620C400C2FCEA = {
 			isa = PBXGroup;
 			children = (
+				2ACD1189260AFEDB0098E33E /* .swiftlint.yml */,
 				2A5EC4C3241620C400C2FCEA /* DicodingApps */,
 				2A5EC4C2241620C400C2FCEA /* Products */,
 			);
@@ -97,6 +100,7 @@
 				2A5EC4BD241620C400C2FCEA /* Sources */,
 				2A5EC4BE241620C400C2FCEA /* Frameworks */,
 				2A5EC4BF241620C400C2FCEA /* Resources */,
+				2ACD1187260AF75D0098E33E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -114,7 +118,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Dicoding Indonesia";
 				TargetAttributes = {
 					2A5EC4C0241620C400C2FCEA = {
@@ -145,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACD118A260AFEDB0098E33E /* .swiftlint.yml in Resources */,
 				2A5EC4D1241620C600C2FCEA /* LaunchScreen.storyboard in Resources */,
 				2A5EC4CE241620C600C2FCEA /* Assets.xcassets in Resources */,
 				2A5EC4CC241620C400C2FCEA /* Main.storyboard in Resources */,
@@ -152,6 +157,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ACD1187260AF75D0098E33E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A5EC4BD241620C400C2FCEA /* Sources */ = {
@@ -216,6 +241,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -276,6 +302,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

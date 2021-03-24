@@ -55,6 +55,8 @@ extension ViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // Memanggil View Controller dengan berkas NIB/XIB di dalamnya
+        tableView.deselectRow(at: indexPath, animated: true)
+
         let detail = DetailViewController(nibName: "DetailViewController", bundle: nil)
         // Mengirim data hero
         detail.hero = heroes[indexPath.row]

@@ -3,4 +3,114 @@
    uuid = "AFA82311-B7A3-4965-881C-79836CC36A51"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5928A146-7312-46EA-9175-EE0FB0790EEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hello Dicoding/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5928A146-7312-46EA-9175-EE0FB0790EEC - eb01b4e03dd28b70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello_Dicoding.ViewController.totalLike.getter : Swift.Int"
+                  moduleName = "Hello Dicoding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilangramadhan/Documents/ProjectiOS/dicoding/BelajariOS/Hello%20Dicoding/Hello%20Dicoding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "5928A146-7312-46EA-9175-EE0FB0790EEC - 852785a453b3df6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello_Dicoding.ViewController.totalLike.setter : Swift.Int"
+                  moduleName = "Hello Dicoding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilangramadhan/Documents/ProjectiOS/dicoding/BelajariOS/Hello%20Dicoding/Hello%20Dicoding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  uuid = "5928A146-7312-46EA-9175-EE0FB0790EEC - a950f609ee55ac53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello_Dicoding.ViewController.totalLike.modify : Swift.Int"
+                  moduleName = "Hello Dicoding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilangramadhan/Documents/ProjectiOS/dicoding/BelajariOS/Hello%20Dicoding/Hello%20Dicoding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "5928A146-7312-46EA-9175-EE0FB0790EEC - ec1c5dfc5d8ec06c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello_Dicoding.ViewController.totalLike.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Hello Dicoding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilangramadhan/Documents/ProjectiOS/dicoding/BelajariOS/Hello%20Dicoding/Hello%20Dicoding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "5928A146-7312-46EA-9175-EE0FB0790EEC - c8d3b045359d734d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello_Dicoding.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Hello_Dicoding.ViewController"
+                  moduleName = "Hello Dicoding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilangramadhan/Documents/ProjectiOS/dicoding/BelajariOS/Hello%20Dicoding/Hello%20Dicoding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "5928A146-7312-46EA-9175-EE0FB0790EEC - 26bd3e8be3cb2b01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello_Dicoding.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Hello_Dicoding.ViewController&gt;"
+                  moduleName = "Hello Dicoding"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilangramadhan/Documents/ProjectiOS/dicoding/BelajariOS/Hello%20Dicoding/Hello%20Dicoding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "367">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     @IBOutlet weak var height: UITextField!
     @IBOutlet weak var width: UITextField!
     @IBOutlet weak var result: UILabel!
@@ -17,11 +17,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
+
     @IBAction func calculateArea(_ sender: UIButton) {
-        if let h = Double(height.text ?? "0"), let w = Double(width.text ?? "0"){
+        if let h = Double(height.text ?? "0"), let w = Double(width.text ?? "0") {
             result.text = String(h * w)
-        }else{
+        } else {
             result.text = "Hasil Tidak Valid"
         }
     }
@@ -32,4 +32,3 @@ class ViewController: UIViewController {
         width.text = ""
     }
 }
-
