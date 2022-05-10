@@ -36,16 +36,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yX9-Rt-FGc">
-                                <rect key="frame" x="126.5" y="185" width="67" height="31"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Follow" cornerStyle="medium">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" name="DicodingColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="oYr-vD-Mnd">
                                 <rect key="frame" x="12" y="240" width="296" height="190"/>
                                 <subviews>
@@ -111,6 +101,16 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yX9-Rt-FGc">
+                                <rect key="frame" x="110" y="185" width="100" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Follow" cornerStyle="medium">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" name="DicodingColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -121,7 +121,7 @@
                             <constraint firstItem="yX9-Rt-FGc" firstAttribute="top" secondItem="n3S-Sz-T1f" secondAttribute="bottom" constant="12" id="FNq-uj-bk3"/>
                             <constraint firstItem="n3S-Sz-T1f" firstAttribute="top" secondItem="Usg-SE-g0E" secondAttribute="bottom" constant="8" symbolic="YES" id="Lyx-ib-ykh"/>
                             <constraint firstItem="oYr-vD-Mnd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="P1U-3N-vSg"/>
-                            <constraint firstItem="yX9-Rt-FGc" firstAttribute="width" secondItem="ttl-1N-eoz" secondAttribute="width" multiplier="0.67" id="VDZ-dF-oif"/>
+                            <constraint firstItem="yX9-Rt-FGc" firstAttribute="width" secondItem="ttl-1N-eoz" secondAttribute="width" id="Ut0-gZ-ZWo"/>
                             <constraint firstItem="yX9-Rt-FGc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g6r-CK-gCB"/>
                             <constraint firstItem="ttl-1N-eoz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="g7j-G7-Jy6"/>
                             <constraint firstItem="Usg-SE-g0E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nYG-kd-QCN"/>
