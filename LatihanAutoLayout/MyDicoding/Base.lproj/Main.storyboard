@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Profile View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ProfileViewController" customModule="MyDicoding" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyDicoding" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,9 +45,6 @@
                                         <color key="backgroundColor" name="DicodingColor"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="setFollowed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JnN-jr-bEc"/>
-                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Zwf-4E-cEw">
                                 <rect key="frame" x="12" y="234" width="296" height="205"/>
@@ -133,10 +130,6 @@
                             <constraint firstItem="ya8-Lo-Yqg" firstAttribute="top" secondItem="F6z-bb-XQG" secondAttribute="bottom" constant="12" id="wmG-31-gd4"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="followedButton" destination="ya8-Lo-Yqg" id="GAG-Mh-2Lg"/>
-                        <outlet property="profileImageView" destination="3EF-p0-SbB" id="deR-hV-Ek9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
