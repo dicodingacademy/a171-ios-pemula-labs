@@ -40,7 +40,7 @@ extension ViewController: UITableViewDataSource {
     return dummyAcademyData.count
   }
 
-  // MARK: Mengatur bagaiman tampilan dari setiap TableViewCell.
+  // MARK: Mengatur bagaimana tampilan dari setiap TableViewCell.
   func tableView(
     _ tableView: UITableView,
     cellForRowAt indexPath: IndexPath
